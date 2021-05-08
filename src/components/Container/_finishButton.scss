@@ -1,0 +1,45 @@
+.minicart-container_finish-button {
+  background-color: map-get($secondary-color, 'default');
+  color: map-get($main-color, 'default');
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  z-index: 0;
+
+  
+  &::before {
+    background-color: #fdd835;
+    bottom: -405px;
+    content: '';
+    height: 6px;
+    height: 400px;
+    left: 0;
+    position: absolute;
+    right: auto;
+    transform: rotate(-2deg);
+    transform-origin: top left;
+    transition: all 0.3s ease;
+    width: 34px;
+    width: 400px;
+    z-index: -1;
+  }
+
+  .minicart-container_icon-wrapper {
+    margin-left: 20px;
+  }
+}
+
+.minicart-container_finish-button:hover {
+  // background-color: map-get($secondary-color, 'hover');
+
+  &::before {
+    transform: rotate(-90deg);
+    transition: all 0.5s ease;
+  }
+}

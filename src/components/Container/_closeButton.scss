@@ -1,0 +1,26 @@
+.minicart-container_close-button-mobile {
+  cursor: pointer;
+  position: relative;
+  @media (min-width: #{map-get($breakpoints, 'tablet')}px) {
+    display: none;
+  }
+
+  @mixin line($rotate) {
+    border: 1px solid;
+    border-radius: 100px;
+    bottom: 13px;
+    content: '';
+    position: absolute;
+    right: 0;
+    transform: rotate(#{$rotate}deg);
+    width: 22px;
+  }
+
+  &::after {
+    @include line(-45);
+  }
+
+  &::before {
+    @include line(45);
+  }
+}

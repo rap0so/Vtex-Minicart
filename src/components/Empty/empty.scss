@@ -1,0 +1,17 @@
+.empty {
+  padding: 100px 0;
+  text-align: center;
+  
+  &_title {
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+    margin: 15px 0 0;
+    text-transform: uppercase;
+  }
+
+  &_description {
+    font-size: 13px;
+    text-align: center;
+  }
+}

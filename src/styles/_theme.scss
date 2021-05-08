@@ -1,0 +1,47 @@
+.text,
+.strong-text,
+.small-text {
+  color: map-get($main-color, 'default');
+}
+
+.text {
+  font-size: 12px;
+  margin: 0;
+}
+
+.small-text {
+  font-size: 10px;
+}
+
+.strong-text {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+
+  * {
+    flex: 1;
+  }
+}
+
+.separator {
+  border: 1px solid #f4f4f4;
+  margin: 15px 0;
+}
+
+@media (max-width: #{map-get($breakpoints, 'tablet')}px) {
+  .text {
+    font-size: 10px;
+  }
+  
+  .small-text {
+    font-size: 8px;
+  }
+  
+  .strong-text {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,20 @@
+.minicart-container * {
+  transition: all 0.2s ease;
+}
+
+.k-progress {
+  width: 100%;
+
+  &-outer {
+    margin-right: 0;
+    padding-right: 0;
+  }
+}
+
+.header__content--item.header__minicart {
+  cursor: pointer;
+
+  .header__minicart-button {
+    pointer-events: none;
+  }
+}

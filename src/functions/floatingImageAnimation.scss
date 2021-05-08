@@ -1,0 +1,41 @@
+.float-image {
+  border-radius: 0;
+  bottom: 0;
+  box-shadow: 0 0 12px 0 #525453;
+  left: 0;
+  margin: auto;
+  max-width: 450px;
+  position: fixed;
+  right: 50%;
+  top: 0;
+  visibility: hidden;
+  z-index: 1000000;
+
+  &.floating {
+    animation: float-to-cart 3s;
+    visibility: hidden;  
+  }
+}
+
+@keyframes float-to-cart {
+  0% {
+    visibility: visible;
+  }
+  
+  70% {
+    max-width: 50px;
+  }
+
+  90% {
+    box-shadow: 0 0 12px 0 #525453;
+  }
+
+  100% {
+    border: 0;
+    border-radius: 100%;
+    bottom: 40%;
+    box-shadow: none;
+    left: 85%;
+    max-width: 90px;
+  }
+}

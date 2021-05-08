@@ -1,0 +1,60 @@
+@import './finishButton';
+@import './keepButton';
+@import './closeButton';
+
+// TODO: test to ensure that styles are being applied
+.minicart-container {
+  $minicart-width: 380px;
+
+  background-color: map-get($background-color, 'default');
+  box-shadow: -2px 0 30px 8px #000;
+  height: 100vh;
+  max-width: $minicart-width;
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000000;
+
+  &_overlay {
+    background: rgb(0 0 0 / 85%);
+    content: '';
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: $minicart-width;
+    top: 0;
+    z-index: -1;
+  }
+
+  &_title {
+    align-items: center;
+    color: map-get($main-color, 'default');
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    justify-content: space-between;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+  }
+  
+  &_wrapper {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 80px);
+    justify-content: space-between;
+  }
+
+  @media (max-width: #{map-get($breakpoints, 'tablet')}px) {
+    $minicart-width: 335px;
+    max-width: $minicart-width;
+
+    &_overlay {
+      background: rgb(0 0 0 / 60%);
+      right: $minicart-width;
+    }
+  }
+}
