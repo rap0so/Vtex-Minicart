@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to my-vue-boilerplate 👋</h1>
+<h1 align="center">Vtex Minicart 🛒</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://opensource.org/licenses/MIT" target="_blank">
@@ -9,7 +9,7 @@
   </a>
 </p>
 
-> Simple typescript web application boilerplate
+> This is a minicart plugin I created to connect to vtex ecommerce platform
 
 ## Install
 
@@ -82,15 +82,21 @@ dist/minicartProject.umd.min.js
 - Website: https://github.com/rap0so
 - Github: [@rap0so](https://github.com/rap0so)
 
+## Demo
+
+It's on live in [decathlon](https://www.decathlon.com.br/), some screenshots:
+
+![Screenshot Minicart 1](https://github.com/rap0so/Vtex-Minicart/tree/master/.github/screenshots/minicart-1.png)
+![Screenshot Minicart 2](https://github.com/rap0so/Vtex-Minicart/tree/master/.github/screenshots/minicart-2.png)
+![Screenshot Minicart 3](https://github.com/rap0so/Vtex-Minicart/tree/master/.github/screenshots/minicart-3.png)
+
+and a [video](https://drive.google.com/file/d/1fHcioRbumqQgrzaIvJqQqrEoX1FvaOHJ/view?usp=sharing) to show the animation!
 ## TODO
 
 (Should be done after launch)
 
-- [] test all components 😱
-- [] bindLess
-- [] bindMore
-- [] lessCalc
-- [] moreCalc
+- [] Test all components 😱
+- [] Implement functions: bindLess, bindMore, lessCalc and moreCalc
 
 ## Show your support
 
