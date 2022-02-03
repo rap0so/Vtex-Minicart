@@ -86,9 +86,10 @@ dist/minicartProject.umd.min.js
 
 It's on live in [decathlon](https://www.decathlon.com.br/), some screenshots:
 
-![Screenshot Minicart 1](https://github.com/rap0so/Vtex-Minicart/tree/master/.github/screenshots/minicart-1.png)
-![Screenshot Minicart 2](https://github.com/rap0so/Vtex-Minicart/tree/master/.github/screenshots/minicart-2.png)
-![Screenshot Minicart 3](https://github.com/rap0so/Vtex-Minicart/tree/master/.github/screenshots/minicart-3.png)
+![Screenshot Minicart 1](https://raw.githubusercontent.com/rap0so/Vtex-Minicart/master/.github/screenshots/minicart-1.png)
+![Screenshot Minicart 3](https://raw.githubusercontent.com/rap0so/Vtex-Minicart/master/.github/screenshots/minicart-3.png)
+![Screenshot Minicart 2](https://raw.githubusercontent.com/rap0so/Vtex-Minicart/master/.github/screenshots/minicart-2.png)
+
 
 and a [video](https://drive.google.com/file/d/1fHcioRbumqQgrzaIvJqQqrEoX1FvaOHJ/view?usp=sharing) to show the animation!
 ## TODO
